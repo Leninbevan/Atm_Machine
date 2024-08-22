@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e64b37bf.css",
+    "main.js": "/static/js/main.42740d3f.js",
+    "static/js/787.01287742.chunk.js": "/static/js/787.01287742.chunk.js",
+    "static/media/atmCard.jpg": "/static/media/atmCard.27625226daa8ac354706.jpg",
+    "index.html": "/index.html",
+    "static/media/getFetch.cjs": "/static/media/getFetch.40f37ddea2378391108f.cjs",
+    "main.e64b37bf.css.map": "/static/css/main.e64b37bf.css.map",
+    "main.42740d3f.js.map": "/static/js/main.42740d3f.js.map",
+    "787.01287742.chunk.js.map": "/static/js/787.01287742.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e64b37bf.css",
+    "static/js/main.42740d3f.js"
+  ]
+}

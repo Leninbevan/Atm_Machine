@@ -8,8 +8,6 @@ import { changeLanguage } from "../utilities/changeLanguage";
 function Language() {
     const history=useHistory()
     const dispatch=useDispatch()
-    const [lang,setLang]=useState('en')
-
     const { t } = useTranslation();
 
     const handleChange = (value) => {
