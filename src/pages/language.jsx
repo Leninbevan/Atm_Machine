@@ -1,7 +1,6 @@
-import { useTranslation } from "react-i18next"
-import { useState } from "react";
-import { useHistory } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import { useDispatch } from "react-redux";
+import { useHistory } from "react-router-dom";
 import { setUser } from "../services/slice";
 import { changeLanguage } from "../utilities/changeLanguage";
 
