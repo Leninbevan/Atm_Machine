@@ -8,9 +8,9 @@ function Home() {
     const usersDetails=useSelector(state=>state.usersDetails)
     // console.log(usersDetails);
     const [cardNo,setCardNo]=useState('')
-    const [isValidNo,setIsValidNo]=useState(true)
+    const [isValidNo,setIsValidNo]=useState(false)
     const history=useHistory()
-    const [errorMessage,setErrorMessage]=useState('Invalid card Number')
+    const [errorMessage,setErrorMessage]=useState('This is your card num "33333333333333" and pin "7485')
     const dispatch=useDispatch()
 
     function changeValue(value)
@@ -42,7 +42,7 @@ function Home() {
         }
         else
         {
-            setErrorMessage('Try this card num "33333333333333" and pin "7485"' )
+            setErrorMessage('Invalid number' )
             setIsValidNo(false)
         }
     }
